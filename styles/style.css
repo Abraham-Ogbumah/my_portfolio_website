@@ -1,5 +1,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    margin: 0;
 }
 
 :root {
@@ -150,6 +151,53 @@ h1 {
     color: var(--clr-light);
 }
 
+.intro-name {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.intro-des {
+    font-size: 26px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.intro-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly
+    
+}
+
+.pbutton {
+    border: 2px solid var(--button-outline);
+    text-align: center;
+    border-radius: 50px;
+}
+
+.portfolio-button {
+    width: 40%;
+    padding: 10px;    
+}
+
+.video-button {
+    width: 30%;
+    padding: 10px;
+    background-color: var(--button); 
+}
+
 h2 {
     font-size: var(--fs-h2);
 }
@@ -164,6 +212,11 @@ h3 {
 
 #introduction {
     background-color: var(--clr-section-two);
+}
+
+.sec-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .a_item {
@@ -200,12 +253,18 @@ h3 {
 
 .sl-top {
     margin-top: 4rem;
+    flex-direction: row;
+    margin-bottom: 1rem;
 }
 
 .sl-container {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     flex-direction: row;
+}
+
+.sl_item {
+    margin-right: 0.5rem;
 }
 
 @media (min-width: 600px) {
