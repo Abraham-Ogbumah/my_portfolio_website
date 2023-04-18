@@ -158,10 +158,10 @@ h1 {
     line-height: 3rem;
 }
 
-.intro-des {
-    font-size: 26px;
+.description {
+    font-size: 1rem;
     text-align: center;
-    line-height: 40px;
+    line-height: 25px;
 }
 
 .intro-text {
@@ -252,9 +252,14 @@ h3 {
 }
 
 .sl-top {
-    margin-top: 4rem;
+    margin-top: 1rem;
     flex-direction: row;
     margin-bottom: 1rem;
+}
+
+.sl-bottom {
+    flex-direction: row;
+    margin-top: 2rem;
 }
 
 .sl-container {
@@ -267,11 +272,32 @@ h3 {
     margin-right: 0.5rem;
 }
 
+footer {
+    background-color: var(--clr-section-two);
+}
+
+.m-container {
+    padding-top: 6rem;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text > h1 {
+    margin-bottom: 1rem;
+}
+
 @media (min-width: 600px) {
     .sec-container {
         width: 70%;
         margin: 0 auto;
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+    .description {
+        font-size: 1.8rem;
+        text-align: center;
+        line-height: 40px;
     }
 }
