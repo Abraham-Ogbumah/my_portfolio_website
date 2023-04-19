@@ -280,8 +280,13 @@ footer {
     padding-top: 6rem;
 }
 
+#contact-me {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
 .contactForm {
-    width: 90%;
+    width: 80%;
     padding: 10px;
     background: var(--clr-section-one);
     margin: 0 auto;
