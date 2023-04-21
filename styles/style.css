@@ -286,7 +286,6 @@ footer {
 }
 
 .contactForm {
-    width: 80%;
     padding: 10px;
     background: var(--clr-section-one);
     margin: 0 auto;
