@@ -214,6 +214,10 @@ h3 {
     background-color: var(--clr-section-two);
 }
 
+#portfolio {
+    background-color: var(--clr-section-one);
+}
+
 .sec-container {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -247,7 +251,7 @@ h3 {
     color: var(--clr-light);
 }
 
-#introduction {
+.cp {
     padding: 0.5rem;
 }
 
@@ -276,11 +280,7 @@ footer {
     background-color: var(--clr-section-two);
 }
 
-.m-container {
-    padding-top: 6rem;
-}
-
-#contact-me {
+.cm {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
