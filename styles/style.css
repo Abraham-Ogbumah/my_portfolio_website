@@ -449,10 +449,11 @@ footer {
         margin-right: 12px;
     }
     .sec-container {
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
         padding-left: 1rem;
         padding-right: 1rem;
+        max-width: 1186px;
     }
     .description {
         font-size: 1.8rem;
@@ -470,7 +471,23 @@ footer {
 }
 
 @media (min-width: 992px) {
+    .hero-container {
+        display: flex;
+    }
+    .h-pad {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .left_hero-section {
+        max-width: 558%;
+    }
     .right_hero-section {
         display: block;
+        max-width: 41%;
+        height: 250px;
+    }
+    .image {
+        width: 100%;
+        height: auto;
     }
 }
