@@ -455,9 +455,21 @@ footer {
         padding-right: 1rem;
         max-width: 1186px;
     }
+    .sl-container {
+        width: 100%;
+    }
+    .sl-top {
+        justify-content: left;
+    }
+    .sl_item {
+        margin-right: 3.5rem;
+    }
+    .intro-name {
+        text-align: left;
+    }
     .description {
-        font-size: 1.8rem;
-        text-align: center;
+        font-size: 1.5rem;
+        text-align: left;
         line-height: 40px;
     }
     .card-section {
