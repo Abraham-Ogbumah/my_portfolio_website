@@ -346,7 +346,7 @@ footer {
 
 .cm {
     padding-top: 6rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 
 .contactForm {
@@ -471,6 +471,9 @@ footer {
 }
 
 @media (min-width: 992px) {
+    .sl-top {
+        margin-top: 5rem;
+    }
     .hero-container {
         display: flex;
     }
@@ -480,6 +483,7 @@ footer {
     }
     .left_hero-section {
         max-width: 558%;
+        text-align: left;
     }
     .image-container {
         display: block;
