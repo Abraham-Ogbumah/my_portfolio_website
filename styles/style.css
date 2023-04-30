@@ -241,17 +241,27 @@ h3 {
 
 .card-section {
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 15px;
 }
 
 .card-container {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 10px;
+    width: 75%;
+    align-items: center;
     background-color: var(--clr-section-two);
     border-radius: 30px;
     margin-bottom: 20px;
 }
 
 .card-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     padding: 50px 35px;
 }
 
@@ -475,6 +485,7 @@ footer {
     .card-section {
         flex-wrap: wrap;
         flex-direction: row;
+        align-items: stretch;
         justify-content: space-evenly;
     }
     .card-container {
@@ -518,5 +529,8 @@ footer {
         height: 60%; /* Adjust the height of the blend effect */
         background-image: linear-gradient(to top, var(--clr-section-two), transparent); /* Create a blend effect using the background color */
         pointer-events: none; /* Ensures the gradient does not interfere with any interactions with the image */
+    }
+    .card-container {
+        width: 31%;
     }
 }
