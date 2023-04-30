@@ -40,6 +40,9 @@ body {
 
 header {
     background-color: var(--clr-section-one);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 .nav {
