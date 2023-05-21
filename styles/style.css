@@ -162,14 +162,14 @@ h1 {
 }
 
 .description {
-    font-size: 1rem;
+    font-size: 26px;
     text-align: center;
-    line-height: 25px;
+    line-height: 40px;
 }
 
 .intro-text {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .button-container {
@@ -181,7 +181,7 @@ h1 {
     /* display: flex;
     align-items: center;
     justify-content:space-evenly */
-    width: 65%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -200,7 +200,7 @@ h1 {
 }
 
 .portfolio-button {
-    width: 40%;
+    width: 50%;
     padding: 10px; 
     border: 1px solid var(--button-outline);
     border-radius: 25px;
@@ -209,13 +209,17 @@ h1 {
 }
 
 .media-button {
-    width: 30%;
+    width: 40%;
     padding: 10px;
     text-align: center;
     border: 1px solid var(--button-outline);
     border-radius: 25px;
     background-color: var(--button);
     cursor: pointer;
+}
+
+.media-button a {
+    color: var(--clr-light);
 }
 
 .video-button {
@@ -321,6 +325,12 @@ h3 {
 .sec-container {
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+.contact-details_address {
+    display: flex;
+    align-items: center;
+    height: 10rem;
 }
 
 .a_item {
@@ -465,6 +475,10 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
+    .cm {
+        padding-top: 9rem;
+        padding-bottom: 5rem;
+    }
     .nav-toggle {
         display: none;
     }
@@ -508,6 +522,10 @@ footer {
         text-align: left;
         line-height: 40px;
     }
+
+    .buttons {
+        margin: 0;
+    }
     .card-section {
         flex-wrap: wrap;
         flex-direction: row;
@@ -535,9 +553,11 @@ footer {
         text-align: left;
     }
     .image-container {
-        display: block;
+        display: flex;
         max-width: 41%;
         width: 100%;
+        justify-content: flex-end;
+        flex-direction: column;
     }
     .right_hero-section {
         position: relative;
