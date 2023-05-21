@@ -173,15 +173,24 @@ h1 {
 }
 
 .button-container {
-    width: 80%;
-    margin: 0 auto;
+    /* width: 80%;
+    margin: 0 auto; */
 }
 
 .buttons {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content:space-evenly
-    
+    justify-content:space-evenly */
+    width: 65%;
+    margin: 0 auto;
+}
+
+.header-buttons {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .pbutton {
