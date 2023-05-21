@@ -201,7 +201,21 @@ h1 {
 
 .portfolio-button {
     width: 40%;
-    padding: 10px;    
+    padding: 10px; 
+    border: 1px solid var(--button-outline);
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;   
+}
+
+.media-button {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--button-outline);
+    border-radius: 25px;
+    background-color: var(--button);
+    cursor: pointer;
 }
 
 .video-button {
