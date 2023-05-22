@@ -571,6 +571,9 @@ footer {
     .card-container {
         width: 45%;
     }
+    .footer-text p {
+        text-align: center;
+    }
 }
 
 @media (min-width: 992px) {
@@ -617,8 +620,5 @@ footer {
     }
     .contact-details {
         width: 32%;
-    }
-    .footer-text p {
-        text-align: center;
     }
 }
