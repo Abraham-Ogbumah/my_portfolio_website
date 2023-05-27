@@ -21,7 +21,7 @@ function typeWriter() {
   if (i < text.length) {
     element.innerHTML += text.charAt(i);
     i++;
-    setTimeout(typeWriter, 100); // Adjust the typing speed by changing the value inside setTimeout
+    setTimeout(typeWriter, 75); // Adjust the typing speed by changing the value inside setTimeout
   }
 }
 

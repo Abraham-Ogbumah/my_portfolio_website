@@ -205,7 +205,13 @@ h1 {
     border: 1px solid var(--button-outline);
     border-radius: 25px;
     text-align: center;
-    cursor: pointer;   
+    cursor: pointer;
+    color: var(--clr-light);
+    text-decoration: none;   
+}
+
+.portfolio-button:hover {
+    background-color: var(--button); 
 }
 
 .media-button {
