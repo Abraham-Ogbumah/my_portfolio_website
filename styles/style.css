@@ -495,6 +495,10 @@ footer {
     height: 160px;
 }
 
+.last-card {
+    max-width: 45%; 
+}
+
 
 .footer-text {
     text-align: center;
